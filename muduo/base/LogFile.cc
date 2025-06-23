@@ -123,7 +123,7 @@ string LogFile::getLogFileName(const string& basename, time_t* now)
   filename += ProcessInfo::hostname();
 
   char pidbuf[32];
-  snprintf(pidbuf, sizeof pidbuf, ".%d", ProcessInfo::pid());
+  snprintf(pidbuf, sizeof pidbuf, ".pid:%d.", ProcessInfo::pid());
   filename += pidbuf;
 
   filename += ".log";

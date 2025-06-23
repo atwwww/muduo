@@ -25,7 +25,7 @@ class LogFile : noncopyable
   LogFile(const string& basename,
           off_t rollSize,
           bool threadSafe = true,
-          int flushInterval = 3,
+          int flushInterval = 3,        // 3秒进行一次flush操作
           int checkEveryN = 1024);
   ~LogFile();
 

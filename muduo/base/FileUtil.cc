@@ -33,20 +33,21 @@ void FileUtil::AppendFile::append(const char* logline, const size_t len)
 {
   size_t written = 0;
 
+  // 如果写入数据长度 < 需要写入的数据长度，则一直写
   while (written != len)
   {
-    size_t remain = len - written;
-    size_t n = write(logline + written, remain);
-    if (n != remain)
+    size_t remain = len - written;  // 剩余长度 = 总长度 - 已经写入的长度。
+    size_t n = write(logline + written, remain);  // 从新的起点开始写入，需要写入的长度是剩余长度
+    if (n != remain)  // 如果写入长度不等于remain
     {
-      int err = ferror(fp_);
-      if (err)
+      int err = ferror(fp_);  // 获取错误码
+      if (err)                // 返回错误
       {
-        fprintf(stderr, "AppendFile::append() failed %s\n", strerror_tl(err));
-        break;
+        fprintf(stderr, "AppendFile::append() failed %s\n", strerror_tl(err));  // 打印错误
+        break;  // 发生流错误了，直接退出循环
       }
     }
-    written += n;
+    written += n; // 如果写入成功，则将写入的字符数累加
   }
 
   writtenBytes_ += written;

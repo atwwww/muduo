@@ -78,8 +78,8 @@ class AppendFile : noncopyable
   size_t write(const char* logline, size_t len);
 
   FILE* fp_;
-  char buffer_[64*1024];
-  off_t writtenBytes_;
+  char buffer_[64*1024];  // 写文件缓冲区为64KB，若一个磁盘扇区为512B，则一次性可以写入128个扇区
+  off_t writtenBytes_;    // 记录一个文件总体写入的字节的大小
 };
 
 }  // namespace FileUtil

@@ -17,7 +17,8 @@ class TimeZone;
 class Logger
 {
  public:
-  enum LogLevel
+  enum LogLevel // 类中枚举，可以直接通过Logger::INFO来访问类中的枚举信息
+                // enum class LogLevel，枚举类，访问枚举类中的内容时，必须要指定枚举类
   {
     TRACE,
     DEBUG,

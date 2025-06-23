@@ -1,0 +1,474 @@
+<mxfile host="Electron" modified="2024-07-18T18:36:48.999Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="2HjN3tsGpid2_D3fjg5l" version="24.4.0" type="device">
+  <diagram name="第 1 页" id="vqRBmBBITWal0Hqs-MkK">
+    <mxGraphModel dx="2022" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-9anSN0vIM562TteHLvR-7" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="-9anSN0vIM562TteHLvR-1" target="-9anSN0vIM562TteHLvR-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="449" y="371" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-9anSN0vIM562TteHLvR-1" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;AsyncLogging&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-9anSN0vIM562TteHLvR-6" value="前端" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="259" y="391" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-9anSN0vIM562TteHLvR-9" value="后端" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="579" y="391" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-9anSN0vIM562TteHLvR-10" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="-9anSN0vIM562TteHLvR-1" target="-9anSN0vIM562TteHLvR-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="499" y="371" as="sourcePoint" />
+            <mxPoint x="363" y="401" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-9anSN0vIM562TteHLvR-11" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="309" y="343.51" width="20" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="-9anSN0vIM562TteHLvR-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-9anSN0vIM562TteHLvR-12" target="-9anSN0vIM562TteHLvR-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-9anSN0vIM562TteHLvR-12" value="append&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;将日志信息写入前端缓冲块&lt;span style=&quot;color: rgb(78, 201, 176); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre;&quot;&gt;FixedBuffer&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="491" width="110" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-9anSN0vIM562TteHLvR-13" value="通知后端线程将脏缓冲块写入磁盘" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="491" width="60" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-9anSN0vIM562TteHLvR-15" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="622" y="334.13" width="20" height="263.75" as="geometry" />
+        </mxCell>
+        <mxCell id="-9anSN0vIM562TteHLvR-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-9anSN0vIM562TteHLvR-16" target="-9anSN0vIM562TteHLvR-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="731" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-9anSN0vIM562TteHLvR-16" value="缓冲块替换" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="513" y="491" width="66" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-9anSN0vIM562TteHLvR-17" value="异常日志流量控制" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="599" y="491" width="66" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-9anSN0vIM562TteHLvR-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-9anSN0vIM562TteHLvR-18" target="-9anSN0vIM562TteHLvR-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-9anSN0vIM562TteHLvR-18" value="日志落盘" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="689" y="491" width="66" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-9anSN0vIM562TteHLvR-27" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;前后端共4个常用缓冲块&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;前端写日志时，将日志信息写到缓冲块内部，通过memcpy实现&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;前段在流量稍大时可以申请动态缓冲块，这些动态缓冲块后端会在落盘后释放掉。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;后端将脏缓冲块落盘时，&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;首先使用后端常用缓冲块交换前端常用缓冲块&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;之后落盘&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;最后更新后端常用缓冲块。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="300" y="655" width="220" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="-9anSN0vIM562TteHLvR-30" value="后端一次性接受到大于25个脏块时，丢弃除前2个脏块以外的所有脏块。" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="583.5" y="655" width="111" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="-9anSN0vIM562TteHLvR-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.441;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-9anSN0vIM562TteHLvR-17" target="-9anSN0vIM562TteHLvR-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-9anSN0vIM562TteHLvR-32" value="依靠&lt;span style=&quot;color: rgb(78, 201, 176); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre; background-color: rgb(31, 31, 31);&quot;&gt;LogFile&lt;/span&gt;类实现日志落盘工作" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="855" y="576" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-9anSN0vIM562TteHLvR-34" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="900" y="482.88" width="20" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="-9anSN0vIM562TteHLvR-35" value="&lt;span style=&quot;color: rgb(78, 201, 176); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre; background-color: rgb(31, 31, 31);&quot;&gt;AppendFile&lt;/span&gt;文件读写&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;内部实际使用无锁文件读写操作。&lt;br&gt;单线程可以不用对文件流读写操作加锁，多线程情况下需要对文件流读写操作加锁。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="735" y="691" width="146" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="-9anSN0vIM562TteHLvR-36" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;日志滚动&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;写文件达到一定字节数&lt;/li&gt;&lt;li&gt;写文件达到一定次数，查询滚动周期（设置为1天），若滚动周期达到，则进行滚动&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="920" y="691" width="170" height="149.06" as="geometry" />
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="foHtVLuA0IrWYTjIges1-1" target="foHtVLuA0IrWYTjIges1-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="foHtVLuA0IrWYTjIges1-1" target="foHtVLuA0IrWYTjIges1-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="foHtVLuA0IrWYTjIges1-1" target="foHtVLuA0IrWYTjIges1-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-1" value="临界区分析" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="foHtVLuA0IrWYTjIges1-2" target="foHtVLuA0IrWYTjIges1-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-2" value="前端写缓冲块" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="foHtVLuA0IrWYTjIges1-3" target="foHtVLuA0IrWYTjIges1-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1560" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-3" value="后端交换缓冲块" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="foHtVLuA0IrWYTjIges1-6" target="foHtVLuA0IrWYTjIges1-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-6" value="后端写文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1760" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-8" value="共用同一个mutex。&lt;br&gt;&lt;br&gt;前端：写缓冲块时，不能在写的时候突然被换走了。若前端处于写缓冲块中，然后被后端换走，但此时还是处于写对应缓冲块的memcpy中，写完之后，前端更新缓冲块的m_cur，但是此时m_cur对应的是新的缓冲块的，这就会引起混乱。&lt;br&gt;&lt;br&gt;后端：交换缓冲块的时候，不能处于前段使用缓冲块memcpy的时候。否则，这会导致和上面前端的同理错误。&lt;br&gt;&lt;br&gt;前端写缓冲块和后端移动缓冲块共同请求同一把mutex则可以避免这种情况。" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="520.38" width="330" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-11" value="fwrite写文件流时，内部会在方法执行时获取文件的IO锁。&lt;br&gt;&lt;br&gt;fwrite_unlocked则不会尝试获取文件的IO锁，可以加快速度。&lt;br&gt;&lt;br&gt;如果后端是多个线程对同一个文件流执行写操作，为了保证多个线程在写文件时，不会有其他线程抢占文件流从而导致输出混乱，若是fwrite，则可以直接在多线程情况下使用，如果是fwrite_unlocked，则需要在写文件之前，让多个线程抢占文件流的锁。&lt;br&gt;这就要求文件流作为一个公共的成员。" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1740" y="520.38" width="160" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="foHtVLuA0IrWYTjIges1-13" target="foHtVLuA0IrWYTjIges1-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="foHtVLuA0IrWYTjIges1-13" target="foHtVLuA0IrWYTjIges1-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-13" value="多线程写文件的两种方式" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2080" y="310" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="foHtVLuA0IrWYTjIges1-14" target="foHtVLuA0IrWYTjIges1-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-14" value="多个线程写多个文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1980" y="422.88" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="foHtVLuA0IrWYTjIges1-15" target="foHtVLuA0IrWYTjIges1-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-15" value="多个线程写一个文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2220" y="422.88" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="foHtVLuA0IrWYTjIges1-18" target="foHtVLuA0IrWYTjIges1-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-18" value="每个线程独占一个文件流，对单个文件流不用加锁" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1980" y="562.88" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-23" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="foHtVLuA0IrWYTjIges1-20" target="foHtVLuA0IrWYTjIges1-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-20" value="多个线程共享一个文件流，多个线程只能依次获取写锁，而后写入文件。" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2220" y="562.88" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="foHtVLuA0IrWYTjIges1-22" value="对于多个线程写多个文件的情况，如果只有一个磁盘，实际还是会受限于磁盘IO。&lt;br&gt;对于多个线程写一个文件的情况，会受限于文件写锁和磁盘IO。" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2100" y="702.88" width="120" height="167.12" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-3" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;#define&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;LOG_INFO&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;WLogger&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Logger&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;logLevel&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;() &lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;lt;=&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;WLogger&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Logger&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;INFO&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;) &lt;/span&gt;&lt;span style=&quot;color: #d7ba7d;&quot;&gt;\&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;WLogger&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Logger&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;__FILE__&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;__LINE__&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;).&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;stream&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;()&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1553" y="1325" width="720" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-52" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-5" target="IQYXokZRvAr848gJet1q-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-53" value="①" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IQYXokZRvAr848gJet1q-52">
+          <mxGeometry x="-0.0675" y="1" relative="1" as="geometry">
+            <mxPoint x="-65" y="161" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-8" value="宏定义解析为：&lt;br&gt;1. 如果日志器的全局日志级别小于等于INFO级别，则创建一个临时Logger对象，创建时，以LOG_INFO语句所在的文件作为文件名和行数参数传入。&lt;div&gt;2. 实际上创建的Logger类对象内部包含了一个Impl对象，而Impl对象的内部又包含了一个LogStream对象&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1671" y="1210" width="370" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-13" target="IQYXokZRvAr848gJet1q-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-13" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;LOG_TRACE&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;LOG_DEBUG&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-15" target="IQYXokZRvAr848gJet1q-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-15" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;LOG_INFO&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1325" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-16" target="IQYXokZRvAr848gJet1q-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-16" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;LOG_WARN&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-17" target="IQYXokZRvAr848gJet1q-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-17" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;LOG_ERROR&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1589" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-18" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* DEBUG、TRACE级别日志&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* 在Impl类构造时，写入时间戳、线程号、日志等级&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* 在Logger类构造时，写入函数名&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* 用户写入日志内容...&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* Logger类析构时，写入文件名和行号&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="46" y="1140" width="390" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-20" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* INFO级别日志&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* 在Impl类构造时，写入时间戳、线程号、日志等级&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* xxxxxxxxxxx(在Logger类构造时，写入函数名)xxxxxxxxxx缺少这一步&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* 用户写入日志内容...&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* Logger类析构时，写入文件名和行号&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="46" y="1290" width="544" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-22" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* WARN级别日志&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* 在Impl类构造时，写入时间戳、线程号、日志等级&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* xxxxxxxxxxx(在Logger类构造时，写入函数名)xxxxxxxxxx缺少这一步&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* 用户写入日志内容...&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* Logger类析构时，写入文件名和行号&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="46" y="1420" width="550" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-24" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* ERROR级别日志&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* 在Impl类构造时，写入时间戳、线程号、日志等级&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* xxxxxxxxxxx(在Logger类构造时，写入函数名)xxxxxxxxxx缺少这一步&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* 用户写入日志内容...&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* Logger类析构时，写入文件名和行号&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="46" y="1554" width="550" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-26" target="IQYXokZRvAr848gJet1q-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-26" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;LOG_FATAL&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1729" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-27" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* FATAL级别日志&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* 在Impl类构造时，写入时间戳、线程号、日志等级&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* xxxxxxxxxxx(在Logger类构造时，写入函数名)xxxxxxxxxx缺少这一步&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* 用户写入日志内容...&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* Logger类析构时，写入文件名和行号，由于日志等级为FATAL，所以将日志内容flush之后，调用abort退出进程&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="46" y="1694" width="824" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-29" target="IQYXokZRvAr848gJet1q-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-29" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;LOG_SYSERR&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1865" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-30" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* SYSERR级别日志&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* 在Impl类构造时，写入时间戳、线程号、日志等级，额外有errno作为参数传入，用于记录操作系统发生的错误信息&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* xxxxxxxxxxx(在Logger类构造时，写入函数名)xxxxxxxxxx缺少这一步&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* 用户写入日志内容...&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* Logger类析构时，写入文件名和行号，因为toAbort参数为false，所以等级不是FATAL&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="46" y="1830" width="850" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-32" target="IQYXokZRvAr848gJet1q-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-32" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;LOG_SYSFATAL&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="2005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-33" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* SYSFATAL级别日志&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* 在Impl类构造时，写入时间戳、线程号、日志等级，额外有errno作为参数传入，用于记录操作系统发生的错误信息&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* xxxxxxxxxxx(在Logger类构造时，写入函数名)xxxxxxxxxx缺少这一步&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* 用户写入日志内容...&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;* Logger类析构时，写入文件名和行号，因为toAbort参数为true，所以等级为FATAL，将日志内容flush之后，调用abort退出进程&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="46" y="1970" width="960" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-35" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="987.5" width="50" height="732.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-37" target="IQYXokZRvAr848gJet1q-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-37" value="第一步，&lt;br&gt;根据__FILE__，__LINE__参数会输入当的LOG_INFO所在的文件的名字和行号。在Logger的构造函数初始化列表中，利用__FILE__和__LINE__参数构造内部管理LogStream的&lt;span style=&quot;color: rgb(78, 201, 176); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre;&quot;&gt;Impl&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;对象。&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2337" y="980" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-39" target="IQYXokZRvAr848gJet1q-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-39" target="IQYXokZRvAr848gJet1q-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-39" value="第二步，&lt;br&gt;Impl对象以__FILE__和__LINE__，LogLevel，errno这四个参数构建出来。&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;在Impl的构造函数上会在初始化列表中利用TimeStamp类的now函数获取当前时间，TimeStamp类的now函数实际是调用了gettimeofday函数来获取系统时间，精度是微秒。&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;另外，Impl内部还使用&lt;span style=&quot;color: rgb(78, 201, 176); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre;&quot;&gt;LogStream&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;的默认构造函数构造了一个LogStream对象，LogStream对象用来对各种数据类型的输入进行适配，并且LogStream对象内部维护了一个缓冲区，用来暂时保存日志信息。&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;以上是在Impl的初始化列表中的事情，在Impl的构造函数体中：&lt;br&gt;1. 首先利用其刚刚构造的LogStream对象m_stream输出当前时间。这个当前时间是通过刚刚通过TimeStamp::now构建的TimeStamp对象通过调用格式化函数得出的，此处的格式化函数将微秒的TimeStamp转换为年月日、时分秒、微秒的形式。(性能对比时，发现了使用snprintf函数进行转换会造成性能瓶颈)。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 其次使用&lt;/span&gt;&lt;span style=&quot;color: rgb(220, 220, 170); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre;&quot;&gt;__builtin_expect&lt;/span&gt;来进行线程号的线程本地存储是否已经存在的判断，如果已经存在，则直接使用，如果不存在则通过std::this_thread::get_id获取C++线程的线程号。在向LogStream对象输入线程号时，实际做法是，将线程号字符串和其长度构造为了T类型的对象，而后往LogStream输入T类型的对象，由于在程序中定义了输入流操作符&amp;lt;&amp;lt;（LogStream&amp;amp;, T），所以LogStream对象可以接受T类型的对象，并在输入流操作符的函数体内将T类型对象的字符串和长度通过LogStream的append方法&lt;span style=&quot;color: rgb(220, 220, 170); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre;&quot;&gt;memcpy&lt;/span&gt;到自身的&lt;span style=&quot;color: rgb(156, 220, 254); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre;&quot;&gt;m_buffer&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;缓冲区中。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;3. 将日志的名字输出到LogStream，日志的名字使用一个&lt;span style=&quot;color: rgb(156, 220, 254); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre;&quot;&gt;LogLevelName&lt;/span&gt;数组，按照Logger中的日志等级枚举类&lt;span style=&quot;font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre; color: rgb(78, 201, 176);&quot;&gt;Logger&lt;/span&gt;&lt;span style=&quot;background-color: rgb(31, 31, 31); color: rgb(204, 204, 204); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre;&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre; color: rgb(79, 193, 255);&quot;&gt;NUM_LOG_LEVELS&lt;/span&gt;的数量定义，并且所有日志的名字都被规定到了一个固定长度。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4. 最后，在Impl的构造函数内，检查errno是否不等于0，如果不等于0，则使用strerror_tl实际底层调用了&lt;span style=&quot;color: rgb(220, 220, 170); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre;&quot;&gt;strerror_r&lt;/span&gt;来解析错误码。strerror_r是线程安全的解析方式，多个线程使用时，不会由于都使用了一个静态字符串而导致解析的错误信息字符串紊乱。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;完成以上步骤后，整个Logger对象就构造好了。&lt;/div&gt;" style="align=left;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2337" y="1090" width="410" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-43" value="构造好Logger对象后，Logger对象内部的Impl对象包含的LogStream对象的缓冲区中已经包含了一些内容（时间、线程id、日志等级，（可能的错误信息））。&lt;div&gt;此Logger临时对象调用了stream()，返回Impl对象内部的LogStream对象的引用，正式开始用户信息的输入。&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2337" y="1710" width="410" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-47" value="Looger对象创建时，会首先通过内部的Impl对象的构造函数往Impl对象包含的LogStream对象的缓冲区中输入当前这条日志所在的基本信息，包括：&lt;br&gt;（时间、线程id、文件名、行号）&lt;div&gt;。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2997" y="1195" width="195" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-54" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1000" y="1684" width="280" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-5" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;LOG_INFO&lt;/span&gt; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;Hello 0123456789&quot;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IQYXokZRvAr848gJet1q-54">
+          <mxGeometry y="45" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-7" value="用户使用LOG_INFO想要输入一条日志信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="IQYXokZRvAr848gJet1q-54">
+          <mxGeometry x="20" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-55" target="IQYXokZRvAr848gJet1q-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1920" y="1845" as="targetPoint" />
+            <mxPoint x="1870" y="1965" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-55" target="IQYXokZRvAr848gJet1q-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2000" y="1710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-55" target="IQYXokZRvAr848gJet1q-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1950" y="1980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-55" value="Logger对象构建好之后，Logger::Impl::LogStream的缓冲区中已经被写入了日志条目的基本信息&lt;span style=&quot;&quot;&gt;（时间、线程id、日志等级，（可能的错误信息））。&lt;br&gt;随后，Logger临时对象通过调用stream()获取到Logger::Impl::LogStream日志输入流对象，之后就是用户数据的输入。&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;LogStream类内部重载了基本针对所有常见数据类型的流操作符&amp;lt;&amp;lt;：&lt;/div&gt;&lt;div&gt;1. 布尔类型，格式化为1或者0。&lt;/div&gt;&lt;div&gt;2. 整形：先判断LogStream缓冲区是否能够放下自己规定的最长的十进制数字的长度，如果放得下，就将整形数字通过convert转换为字符串。&lt;/div&gt;&lt;div&gt;3. 对于浮点数，将float转换为double，统一使用double。double的格式化使用snprintf。&lt;/div&gt;&lt;div&gt;4. 对于char字符，使用LogStream的append接口直接输入。&lt;/div&gt;&lt;div&gt;5. 对于cahr *字符串指针，当字符串指针为空时，插入&quot;null&quot;；否则调用append赋值。&lt;/div&gt;&lt;div&gt;6&lt;span style=&quot;background-color: initial;&quot;&gt;. 对于void*指针，如果指针为空，则插入&quot;nil&quot;；否则将void*通过reinterpret_cast&amp;lt;uintptr_t&amp;gt;转型为uintptr_t，本质上是一个unsigned long，所以需要判断当前LogStream的缓存空间是否还能够放下自己规定的最大数的长度，之后将LogStream缓冲区先放入0x两个字符，然后使用convertHex将地址转换成十六进制。&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;经过以上过程，就完成了将日志信息输入到Logger::Impl::LogSteam对象的缓冲区中。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="1649" width="380" height="351" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-5" target="IQYXokZRvAr848gJet1q-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-57" value="②" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IQYXokZRvAr848gJet1q-56">
+          <mxGeometry x="-0.5275" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-59" value="将整形数字转换为字符串的过程：&lt;div&gt;&lt;div style=&quot;line-height: 22px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 22px;&quot;&gt;总体思路是对数字取10的余，直到数字为0，最后判断整数正负加上负号，然后反转字符串&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="1810" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-61" value="往LogStream缓冲区中输入信息的方式有以下几种：&lt;br&gt;1. 通过append接口输入，需要指明字符串指针和字符串长度，append底层采用memcpy实现。&lt;div&gt;2 . 直接给缓冲区赋值，赋值完毕后需要给缓冲区的长度进行调整。&lt;/div&gt;&lt;div&gt;3. 使用snprintf给缓冲区赋值，赋值完毕后需要给缓冲区长度进行调整。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="1640" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-63" value="将地址转换成十六进制算法：&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;总体思路是对数字取16的余，然后对数字除以16，直到数字为0，最后翻转字符串。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="1980" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-65" target="IQYXokZRvAr848gJet1q-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-65" value="用户日志信息输入完成后，LogStream对象的缓冲区包含的日志内容为：&lt;br&gt;（时间、线程id、日志等级，（可能的错误信息），用户日志信息）。&lt;br&gt;&lt;br&gt;来到临时Logger对象的析构函数，在C++中，一个对象A在构造的时候，先按照声明的顺序构造其包含的成员对象，再构建其自身。这个对象A在析构的时候，A的析构函数先被调用，再按照声明的逆序调用A包含的成员对象的析构函数。&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Logger的析构函数先被调用，在Logger的析构函数中：&lt;/div&gt;&lt;div&gt;1. 调用Impl对象的finish方法，Impl的finish方法只是LogStream的缓冲区中又添加了(文件名，行数，回车)这个三个信息，此时LogStream对象的缓冲区包含的日志内容为：&lt;/div&gt;&lt;div&gt;（时间、线程id、日志等级，（可能的错误信息），用户日志信息，文件名，行数，回车）。&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. 获取Logger::Impl::LogStream对象的缓冲区引用，这个缓冲区实际是一个FixedBuffer类型的固定大小缓冲区对象，是真正的数据实体。将这个FixedBuffer类型的对象包含的字符串数据和长度当做参数填入&lt;span style=&quot;color: rgb(156, 220, 254); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre;&quot;&gt;global_output&lt;/span&gt;函数，就完成了数据从Logger对象输入到异步日志前端。&lt;/div&gt;&lt;div&gt;3. 判断一下Impl对象中封装的日志级别是否为FATAL，如果是FATAL，则调用&lt;span style=&quot;color: rgb(156, 220, 254); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre;&quot;&gt;global_flush&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;将信息先flush到磁盘，再调用abort结束程序。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="2120" width="480" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-5" target="IQYXokZRvAr848gJet1q-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="2130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-68" value="③" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IQYXokZRvAr848gJet1q-64">
+          <mxGeometry x="-0.8367" y="-21" relative="1" as="geometry">
+            <mxPoint x="9" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-66" value="Logger日志管理器是整个日志组件的前端，通过&lt;span style=&quot;color: rgb(156, 220, 254); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre; background-color: rgb(31, 31, 31);&quot;&gt;global_output&lt;/span&gt;和&lt;span style=&quot;color: rgb(156, 220, 254); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre; background-color: rgb(31, 31, 31);&quot;&gt;global_flush&lt;/span&gt;与日志组件的后端实际实现连接。" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2101" y="2180" width="389" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-75" value="Logger" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1254" y="2470" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="IQYXokZRvAr848gJet1q-75" source="IQYXokZRvAr848gJet1q-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="227" y="85.33333333333348" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="227" y="85" />
+              <mxPoint x="227" y="85" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-76" value="用户调用LOG_INFO生成临时Logger对象，自动传入当前文件名、行数，日志等级信息，用于构造内部的Impl对象" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="IQYXokZRvAr848gJet1q-75">
+          <mxGeometry y="30" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-82" value="Impl（日志基本信息控制）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1481" y="2470" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-83" value="使用Logger构造函数传入的参数初始化，在Impl构造函数内，输出基本的日志信息：&lt;br&gt;（时间，线程id，日志等级，（可能的错误信息））" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="IQYXokZRvAr848gJet1q-82">
+          <mxGeometry y="30" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-87" value="LogStream（日志格式化）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="2470" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-88" value="存在于Impl对象内的对象，含有一个4K缓冲区用于一条日志输入的空间，针对多种数据类型重载了输入流操作符&amp;lt;&amp;lt;，使得能够直接使用流式输入。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="IQYXokZRvAr848gJet1q-87">
+          <mxGeometry y="30" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-83" target="IQYXokZRvAr848gJet1q-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1821" y="2555.3333333333335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-91" target="IQYXokZRvAr848gJet1q-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-103" value="异步日志对象构建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IQYXokZRvAr848gJet1q-97">
+          <mxGeometry x="-0.8036" y="4" relative="1" as="geometry">
+            <mxPoint x="38" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-91" target="IQYXokZRvAr848gJet1q-106">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="3250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-111" value="开启异步日志组件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IQYXokZRvAr848gJet1q-105">
+          <mxGeometry x="-0.6748" y="-25" relative="1" as="geometry">
+            <mxPoint x="54" y="60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-91" target="IQYXokZRvAr848gJet1q-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-116" value="前端输入日志信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IQYXokZRvAr848gJet1q-115">
+          <mxGeometry x="0.0855" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-91" value="&lt;span style=&quot;color: rgb(156, 220, 254); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; text-align: left; white-space: pre; background-color: rgb(31, 31, 31);&quot;&gt;global_output&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="935" y="2970" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-93" value="Logger层输出一条日志，调用global_output。&lt;div&gt;global_output被设置为了一个异步日志对象的前端输入动作&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="855" y="2910" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-96" target="IQYXokZRvAr848gJet1q-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-96" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;div style=&quot;line-height: 22px;&quot;&gt;AsyncLogging &lt;span style=&quot;color: #9cdcfe;&quot;&gt;log&lt;/span&gt;(::&lt;span style=&quot;color: #dcdcaa;&quot;&gt;basename&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;name&lt;/span&gt;), rollSize);&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 22px;&quot;&gt;&lt;div style=&quot;line-height: 22px;&quot;&gt;AsyncLogging&lt;span style=&quot;color: #d4d4d4;&quot;&gt;*&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;g_asyncLogging&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #569cd6;&quot;&gt;NULL&lt;/span&gt;;&lt;span style=&quot;color: #6a9955;&quot;&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 异步日志器指针&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 22px;&quot;&gt;&lt;div style=&quot;line-height: 22px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;g_asyncLogging&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;log&lt;/span&gt;;&lt;/div&gt;&lt;div style=&quot;line-height: 22px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;asyncOutput&lt;/span&gt;(&lt;span style=&quot;color: #569cd6;&quot;&gt;const&lt;/span&gt; &lt;span style=&quot;color: #569cd6;&quot;&gt;char*&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;msg&lt;/span&gt;, &lt;span style=&quot;color: #569cd6;&quot;&gt;int&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;len&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;g_asyncLogging&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;append&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;msg&lt;/span&gt;, &lt;span style=&quot;color: #9cdcfe;&quot;&gt;len&lt;/span&gt;);&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;line-height: 22px;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;static&lt;/span&gt; &lt;span style=&quot;color: #569cd6;&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;setOutput&lt;/span&gt;(&lt;span style=&quot;color: #4ec9b0;&quot;&gt;OutputFunc&lt;/span&gt;);&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;line-height: 22px;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Logger&lt;/span&gt;::&lt;span style=&quot;color: #dcdcaa;&quot;&gt;setOutput&lt;/span&gt;(&lt;span style=&quot;color: #dcdcaa;&quot;&gt;asyncOutput&lt;/span&gt;);&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="2710" width="539" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-98" target="IQYXokZRvAr848gJet1q-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-98" value="AsyncLogging对象的构建，传入参数：&lt;div&gt;日志文件所在目录，日志滚动大小，后端落盘线程工作间隔。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;其中后端落盘线程工作间隔默认为3秒，意思是后端落盘线程工作存在两种方式：&lt;/div&gt;&lt;div&gt;1. 被前端工作线程唤醒&lt;/div&gt;&lt;div&gt;2. 每隔一定时间自己苏醒。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;具体AsyncLogging构造函数中，初始化了很多变量。&lt;/div&gt;&lt;div&gt;1. 后端线程刷新间隔，默认3s。&lt;/div&gt;&lt;div&gt;2. 异步日志是否处于运行状态，是原子变量，初始值为false。&lt;/div&gt;&lt;div&gt;3. 日志文件名字，basename，日志文件默认输出到当前目录下。&lt;/div&gt;&lt;div&gt;4. 日志滚动大小，即单个日志文件达到多大时开始滚动。&lt;/div&gt;&lt;div&gt;5. thread，后端落盘线程句柄，用于控制后端落盘线程的声明周期。&lt;/div&gt;&lt;div&gt;6. m_mutex，异步日志前后端交换日志缓冲块时的锁。&lt;/div&gt;&lt;div&gt;7. m_cond，异步日志前端有脏块时，唤醒睡眠在此条件变量上的后端落盘线程。&lt;/div&gt;&lt;div&gt;8.&amp;nbsp;m_currentBuffer，异步日志前端正在使用的缓冲块，本质是FixedBuffer。实际是智能指针管理的Buffer块。默认4MB。&lt;/div&gt;&lt;div&gt;9.&amp;nbsp;m_nextBuffer，异步日志前端下一个可用缓冲块。实际是智能指针管理的Buffer块。默认4MB。&lt;/div&gt;&lt;div&gt;10.&amp;nbsp;m_buffers，异步日志前端用于接收脏块的vector空间，默认大小设置为16。内部存放的是智能指针管理的Buffer块。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1978" y="2663" width="242" height="477" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-100" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;AsyncLogging&lt;/span&gt;(&lt;span style=&quot;color: #569cd6;&quot;&gt;const&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;std&lt;/span&gt;::&lt;span style=&quot;color: #4ec9b0;&quot;&gt;string&lt;/span&gt; &lt;span style=&quot;color: #569cd6;&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;basename&lt;/span&gt;,&lt;span style=&quot;color: #6a9955;&quot;&gt; &amp;nbsp; // 要写入文件的目录&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;off_t&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;rollSize&lt;/span&gt;,&lt;span style=&quot;color: #6a9955;&quot;&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 滚动文件时的文件大小，可以设置为一个日志文件1GB = 2^(30)B&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;color: #569cd6;&quot;&gt;int&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;flushInterval&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #b5cea8;&quot;&gt;3&lt;/span&gt;);&lt;span style=&quot;color: #6a9955;&quot;&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 后端写线程时间间隔（后端线程被前端唤醒、后端线程每隔一定秒数写） &lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2330" y="2670" width="1039" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-106" target="IQYXokZRvAr848gJet1q-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-106" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;start&lt;/span&gt;()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;// 将异步日志器设置为运行状态&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;m_running&lt;/span&gt; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #569cd6;&quot;&gt;true&lt;/span&gt;;&lt;span style=&quot;color: #6a9955;&quot;&gt; // 因为是原子原变量，可以可以直接设置，C++11原子变量默认赋值操作是序列化的。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;// 创建线程&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;m_thread&lt;/span&gt; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;std&lt;/span&gt;::&lt;span style=&quot;color: #4ec9b0;&quot;&gt;thread&lt;/span&gt;(&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;AsyncLogging&lt;/span&gt;::&lt;span style=&quot;color: #dcdcaa;&quot;&gt;threadFunc&lt;/span&gt;, &lt;span style=&quot;color: #569cd6;&quot;&gt;this&lt;/span&gt;);&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="3170" width="840" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-112" value="后端落盘线程只创建了一个，即使用一个落盘线程对单个日志文件进行落盘" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2273" y="3210" width="177" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-114" target="IQYXokZRvAr848gJet1q-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-114" target="IQYXokZRvAr848gJet1q-120">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1680" y="3815" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-114" target="IQYXokZRvAr848gJet1q-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-123" value="后端日志落盘" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IQYXokZRvAr848gJet1q-122">
+          <mxGeometry x="-0.1538" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-114" value="Logger层的&lt;span style=&quot;color: rgb(156, 220, 254); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre; background-color: rgb(31, 31, 31);&quot;&gt;global_output&lt;/span&gt;调用了一个异步日志对象的append方法将Logger::Impl::LogStream对应单条日志的缓冲块内容（最大4K）迁移到了异步日志前端的m_currentBuffer中，整个写入过程如下：&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 51, 51);&quot;&gt;以下过程处于锁保护：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;1. 如果&lt;span style=&quot;background-color: initial;&quot;&gt;m_currentBuffer当前剩余空间足够，则直接调用&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;m_currentBuffer的append方法memcpy。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 如果currentBuffer当前空间不足，则将currentBuffer以移动语义的方式放入前端vector中，如果&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre;&quot;&gt;m_nextBuffer&lt;/span&gt;可用，则将&lt;span style=&quot;color: rgb(156, 220, 254); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre;&quot;&gt;m_nextBuffer&lt;/span&gt;与currentBuffer进行移动语义赋值，本质也是交换缓冲块指针；如果&lt;span style=&quot;color: rgb(156, 220, 254); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre;&quot;&gt;m_nextBuffer&lt;/span&gt;不可用，则直接申请一块缓冲区，将新申请的缓冲区指针通过unique_ptr的reset方法设置给currentBuffer。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. 给currentBuffer找到新的空间后，就可以使用currentBuffer的apend方法从ogger::Impl::LogStream的缓冲块中memcpy数据。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4. 通过条件变量cond的&lt;span style=&quot;color: rgb(220, 220, 170); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre;&quot;&gt;notify_one&lt;/span&gt;方法唤醒后端工作线程。&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 51, 51);&quot;&gt;以上过程处于锁保护&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 51, 51);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 51, 51);&quot;&gt;以上过程涉及到少量的字节拷贝和常数时间的指针交换动作。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 51, 51);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="3500" width="290" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-117" value="unique_ptr的移动构造语义是：&lt;div&gt;1. 调用原unique_ptr的release()，release将原unique_ptr管理的对象的指针ptr取出，并将原unique_ptr管理的资源设置为指针默认值（即nullptr），之后对象的指针ptr返回。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. 获取原unique_ptr的deletor。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. 将以上两个参数传入新的unique_ptr构造函数中构造。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;因此使用unique_ptr的移动语义来交换缓冲块指针时，只有指针的交换，不存在缓冲块数据的拷贝。&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="3430" width="280" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-120" value="&lt;span style=&quot;&quot;&gt;因为此时currentBuffer是新的块，而一个LogStream空间才最大4K，所以不用检查currentBuffer的剩余容量。&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="3700" width="279" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-121" target="IQYXokZRvAr848gJet1q-126">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1770" y="4120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-121" value="经过前端输出之后，如果buffers中被推入了脏块或者后端线程睡眠在condition_variable上的时间到了，则后端线程开始落盘：&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;后端线程在初始工作时，需要创建一个后端落盘对象&lt;span style=&quot;color: rgb(78, 201, 176); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre;&quot;&gt;LogFile。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 51, 51);&quot;&gt;以下过程处于锁保护：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. 后端线程调用condition_variable.wait_for等待一定时间，期间可能被前端唤醒。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 将前端currentBuffer装入前端buffers内。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. 将Buffer1给currentBuffer&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4. 通过vector的swap操作交换前端和后端的vector中的内容，实际上vector的swap操作会直接交换vector内部管理的内存空间，常数时间。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;5. 如果nextBuffer为空，则将Buffer2给nextBuffer&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 51, 51);&quot;&gt;以上过程处于锁保护&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 51, 51);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;6. 对于writeBuffer中的内容，如果数量大于25，则触发异常流量控制，释放到只剩前两个日志缓冲块，并打印日常流量信息到日志文件，使用的是vector的erase操作。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;7. 对剩余的日志块使用LogFile对象进行落盘操作。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;8. 对多出2的缓冲块内存进行释放，保留前两个缓冲块，刚好是最常用的。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;9. 将writeBuffer中的已经写过的缓冲块资源通过unique_ptr的移动语义赋值给Buffer1和Buffer2（如果对应unique_ptr为null的话），用于下一循环给前端进行资源补充。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;10. 清空writeBuffer这个vector中的内容，调用LogFile对象的&lt;span style=&quot;color: rgb(220, 220, 170); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre;&quot;&gt;flush&lt;/span&gt;方法刷新缓冲到磁盘。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;若AsyncLogging对象调用了stop函数，则is_running这个原子变量标志位会被置为false，在后端线程一个循环开始时，while条件不成立，退出，退出时会再调用一次LogFile对象的flush方法，将日志落盘。&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1255" y="4000" width="380" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-126" target="IQYXokZRvAr848gJet1q-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-126" target="IQYXokZRvAr848gJet1q-130">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2330" y="4310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-126" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;LogFile的工作原理&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;LogFile本身作为日志落盘动作的策略控制层，其本身不进行写操作，而是决定了文件的回滚策略。&lt;br&gt;&lt;br&gt;LogFile的输出功能是其内部封装的&lt;span style=&quot;font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre; color: rgb(78, 201, 176);&quot;&gt;FileUtil&lt;/span&gt;&lt;span style=&quot;background-color: rgb(31, 31, 31); color: rgb(204, 204, 204); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre;&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre; color: rgb(78, 201, 176);&quot;&gt;AppendFile&lt;/span&gt;对象提供的。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;LogFile构造：&lt;/div&gt;&lt;div&gt;1. basename，日志文件的基本名字，后续为了日志滚动，生成日志文件名字的时候还需要加上时间、线程id等。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. rollsize，日志文件回滚大小，字节记，到了这个大小，日志就需要写入新的文件中。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. flushInterval，写间隔。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4. checkEveryN，记录最大的写文件次数，达到了这个值就需要检查是否已经过去了一天，是否需要按时间进行日志滚动。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;5. count，&lt;span style=&quot;background-color: initial;&quot;&gt;记录当前已经连续写了多少次，配合checkEveryN使用。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;6. mutex，假设后端落盘线程如果有多个，则需要在写同一个日志文件时加一把锁。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;7. startOfPeriod，记录当前的滚动周期，0。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;8. lastRoll，记录最后一次滚动的时间，0。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;9. lastFlush，记录最后一次刷新缓冲区时间，0。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;10. file，用于实际无锁写文件的&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre; color: rgb(78, 201, 176);&quot;&gt;unique_ptr&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre; color: rgb(212, 212, 212);&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre; color: rgb(78, 201, 176);&quot;&gt;FileUtil&lt;/span&gt;&lt;span style=&quot;background-color: rgb(31, 31, 31); color: rgb(204, 204, 204); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre;&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre; color: rgb(78, 201, 176);&quot;&gt;AppendFile&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre; color: rgb(212, 212, 212);&quot;&gt;&amp;gt;&lt;/span&gt;对象。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;LogFile构造函数体中，检查传入的basename确实是一个不带/的文件名，并且调用&lt;span style=&quot;color: rgb(220, 220, 170); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre;&quot;&gt;rollFile&lt;/span&gt;来进行第一次的日志滚动，这会触发创建一个新日志文件的操作。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;在rollFile函数中，会判断当前的天数是否大于最后滚动的天数（这个天数是从1970年1月1日开始计算的，所以滚动是以天为单位），如果大于，则表明过了一天，就需要新开一个日志文件。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;由于&lt;span style=&quot;background-color: initial; font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre; color: rgb(78, 201, 176);&quot;&gt;unique_ptr&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre; color: rgb(212, 212, 212);&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre; color: rgb(78, 201, 176);&quot;&gt;FileUtil&lt;/span&gt;&lt;span style=&quot;background-color: rgb(31, 31, 31); color: rgb(204, 204, 204); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre;&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre; color: rgb(78, 201, 176);&quot;&gt;AppendFile&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre; color: rgb(212, 212, 212);&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;对象是unique_ptr管理的，调用unique_ptr的reset方法会先销毁原对象，在将新的对象指针放入unique_ptr。销毁源对象时，会调用deletor销毁，而deletor会调用&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre; color: rgb(78, 201, 176);&quot;&gt;FileUtil&lt;/span&gt;&lt;span style=&quot;background-color: rgb(31, 31, 31); color: rgb(204, 204, 204); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre;&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre; color: rgb(78, 201, 176);&quot;&gt;AppendFile&lt;/span&gt;的析构函数，这个析构函数就是close掉打开的文件。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="3900" width="440" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-134" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-127" target="IQYXokZRvAr848gJet1q-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-127" value="无锁写文件：&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;使用LogFile的append方法，实际会调用append_unlock方法，而append_unlock方法内部使用的是LogFile包含的&lt;span style=&quot;background-color: initial;&quot;&gt;AppendFile对象的append方法，最终最底层调用到&lt;/span&gt;&lt;span style=&quot;color: rgb(220, 220, 170); background-color: rgb(31, 31, 31); font-family: Consolas, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; white-space: pre;&quot;&gt;fwrite_unlocked&lt;/span&gt;方法。&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="3960" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="IQYXokZRvAr848gJet1q-130" target="IQYXokZRvAr848gJet1q-136">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2810" y="4465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-130" value="滚动日志&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. 使用LogFile的append_unlock操作写，实际调用AppendFile的append方法写。&lt;span style=&quot;background-color: initial;&quot;&gt;一个AppendFile对象对应着一个文件，所以AppendFile对象可以用一个成员变量记录当前文件已经写入了多少字节。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. 若AppendFile写入的字节超过了滚动文件大小限制，直接调用rollFile函数进行滚动日志操作。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. 若文件写入字节数未超过大小限制，记录LogFile层面已经进行了多少次写操作，若写操作大于checkEveryN，则：&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;将写操作置0&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;计算当前天数（自1970）&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;若当前天数不等于startPeriod，说明来到了一个新的滚动周期，调用rollFile滚动；如果写了很多次，但是还是没有来到一个新的天，则检查当前时间举例上次手动flush时间是否超过flush阈值，若超过，则更新最后flush时间，并且手动flush一下。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="4270" width="410" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-133" value="AppenFile底层文件操作：&lt;br&gt;构造函数初始化列表：&lt;br&gt;1. 打开文件：C标准fopen，将File*赋值给自身的File*变量&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;构造函数体&lt;/div&gt;&lt;div&gt;1. 将File*的缓冲区设置为AppendFile自身的成员变量char数组，意味着使用标准C的写操作写满这个缓冲区，标准C自动flush。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;析构函数&lt;/div&gt;&lt;div&gt;C标准fclose关闭文件指针。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2720" y="3890" width="370" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IQYXokZRvAr848gJet1q-136" value="滚动策略从两方面进行：&lt;div&gt;1. 日志文件大小&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;大小达到强制滚动&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. 时间&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;写文件达到一定次数就检查是否来到了新的滚动周期；&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;即使没到新的滚动周期，也尽可能根据flush间隔将日志内容flush到磁盘&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2850" y="4290" width="320" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
